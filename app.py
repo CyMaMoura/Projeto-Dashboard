@@ -26,7 +26,7 @@ with col2:
                           color='condition', title='Preço x Ano por Condição')
         st.plotly_chart(fig2, use_container_width=True)
 
-# 3. Gráfico de pizza: tipos de transmissão
+# 3. Gráfico de pizza
 with col3:
     if st.button('🥧 Pizza - Tipo de Transmissão'):
         st.subheader('Proporção de Tipos de Transmissão')
@@ -36,6 +36,6 @@ with col3:
                       title='Distribuição dos Tipos de Transmissão')
         st.plotly_chart(fig3, use_container_width=True)
 
-# Rodapé opcional
+# Rodapé
 st.markdown("---")
-st.caption("Feito com 💻 por você – com dados de veículos dos EUA")
+st.caption("Feito por Matheus Moura - com dados de veículos dos EUA")
